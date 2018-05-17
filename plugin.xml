@@ -10,6 +10,7 @@
             <Capability Name="documentsLibrary" />
             <Capability Name="picturesLibrary" />
             <Capability Name="musicLibrary" />
+			<Capability Name="removableStorage" />
         </config-file>
         <config-file target="package.appxmanifest" parent="/Package/Applications/Application/Extensions" >
                 <uap:Extension Category="windows.fileTypeAssociation">
