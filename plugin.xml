@@ -7,10 +7,10 @@
     <keywords>cordova,device</keywords>
     <platform name="windows">
         <config-file target="package.appxmanifest" parent="/Package/Capabilities">
-            <Capability Name="documentsLibrary" />
-            <Capability Name="picturesLibrary" />
-            <Capability Name="musicLibrary" />
-			<Capability Name="removableStorage" />
+            <uap:Capability Name="documentsLibrary" />
+            <uap:Capability Name="picturesLibrary" />
+            <uap:Capability Name="musicLibrary" />
+			<uap:Capability Name="removableStorage" />
         </config-file>
         <config-file target="package.appxmanifest" parent="/Package/Applications/Application/Extensions" >
                 <uap:Extension Category="windows.fileTypeAssociation">
